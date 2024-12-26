@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "aasthagrihaui-mobile",
+    "slug": "aasthagrihaui-mobile",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
