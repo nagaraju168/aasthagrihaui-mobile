@@ -2,13 +2,12 @@ import { useRef, useEffect, useState } from 'react';
 import { WebView } from 'react-native-webview';
 import { Alert, BackHandler } from 'react-native';
 import { StyleSheet } from 'react-native';
-
+import { LANDING_URL, WHITE_URLS } from '@env';
 export default function Web() {
     const webViewRef = useRef(null);
     const [canGoBack, setCanGoBack] = useState(false);
-    const uri = `http://192.168.100.103:4200/login`;
-    const whiltListUrls = [`http://192.168.100.103:4200`];
-    
+    const uri = LANDING_URL;
+    const whiltListUrls = WHITE_URLS.split(',');
 
     const handleBackPress = () => {
         console.log(window.current)

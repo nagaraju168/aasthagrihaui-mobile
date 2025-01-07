@@ -2,23 +2,26 @@
   "dependencies": {
     "aasthagrihaui-mobile": "file:",
     "expo": "^52.0.16",
+    "expo-dev-client": "~5.0.8",
+    "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-native": "0.76.3",
-    "react-native-safe-area-context": "^5.0.0",
+    "react-native": "0.76.5",
+    "react-native-safe-area-context": "4.12.0",
     "react-native-web": "~0.19.6",
     "react-native-webview": "^13.12.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3"
+    "@babel/core": "^7.19.3",
+    "react-native-dotenv": "^3.4.11"
   },
   "name": "aasthagrihaui-mobile",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   }
 }

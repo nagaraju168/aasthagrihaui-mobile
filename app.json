@@ -1,12 +1,30 @@
 {
   "expo": {
-    "name": "aasthagrihaui-mobile",
+    "name": "aasthagrihaui",
     "slug": "aasthagrihaui-mobile",
+    "icon": "./assets/logo.png",
     "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "829d67fd-60a0-4345-9758-af1c40c237fb"
+      }
+    },
+    "android": {
+      "package": "com.professionalteam366.aasthagrihauimobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
   }
 }
