@@ -6,8 +6,8 @@ import { StyleSheet } from 'react-native';
 export default function Web() {
     const webViewRef = useRef(null);
     const [canGoBack, setCanGoBack] = useState(false);
-    const uri = `http://192.168.100.103:4200/login`;
-    const whiltListUrls = [`http://192.168.100.103:4200`];
+    const uri = `http://192.168.100.104:4200/login`;
+    const whiltListUrls = [`http://192.168.100.104:4200`];
     
 
     const handleBackPress = () => {
