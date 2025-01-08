@@ -86,7 +86,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.aasthagrihaui"
+    namespace 'com.professionalteam366.aasthagrihauimobile'
     defaultConfig {
         applicationId 'com.professionalteam366.aasthagrihauimobile'
         minSdkVersion rootProject.ext.minSdkVersion
